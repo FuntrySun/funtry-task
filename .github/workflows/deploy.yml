@@ -37,7 +37,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 21
       - name: Install pnpm
         run: npm install -g pnpm # or npm install -g yarn / npm install -g bun
       - name: Setup Pages
